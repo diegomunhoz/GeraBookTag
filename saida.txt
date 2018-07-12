@@ -1,0 +1,761 @@
+      *****************************************************************
+      *    BOOK DE TAGS = ESTRUTURA ARQUIVO ACCCXXX                   *
+      *    NOME DA INC  = SCC3FEMPWX17                                    *
+      *    DATA         = 05/2017                                     *
+      *    RESPONSAVEL  = BSI TECNOLOGIA                              *
+      *****************************************************************
+
+       01  FEMPWX17-TAGS-RETORNO.
+           05  FEMPWX17-ACCC916-R       PIC  X(040)         VALUE
+               'ACCC916'.
+           05  FEMPWX17-DTHRREF-R       PIC  X(040)         VALUE
+               'DtHrRef'.
+           05  FEMPWX17-IDENTDPARTADMDO-R
+                                        PIC  X(040)         VALUE
+               'IdentdPartAdmdo'.
+           05  FEMPWX17-SITPROC-R       PIC  X(040)         VALUE
+               'SitProc'.
+           05  FEMPWX17-GRUPO-ACCC916-CESS-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_Cess'.
+           05  FEMPWX17-NUCESS-R        PIC  X(040)         VALUE
+               'NUCess'.
+           05  FEMPWX17-NURES-R         PIC  X(040)         VALUE
+               'NURes'.
+           05  FEMPWX17-DTCESS-R        PIC  X(040)         VALUE
+               'DtCess'.
+           05  FEMPWX17-CNPJBASE-CED-R  PIC  X(040)         VALUE
+               'CNPJBase_Ced'.
+           05  FEMPWX17-CNPJBASE-CES-R  PIC  X(040)         VALUE
+               'CNPJBase_Ces'.
+           05  FEMPWX17-INDRCOOBR-R     PIC  X(040)         VALUE
+               'IndrCoobr'.
+           05  FEMPWX17-INDRTROCAGEST-R PIC  X(040)         VALUE
+               'IndrTrocaGest'.
+           05  FEMPWX17-CESSFASE-R      PIC  X(040)         VALUE
+               'CessFase'.
+           05  FEMPWX17-QTDCONTRATOCASAD-R
+                                        PIC  X(040)         VALUE
+               'QtdContratoCasad'.
+           05  FEMPWX17-INDRALTDADCAD-R PIC  X(040)         VALUE
+               'IndrAltDadCad'.
+           05  FEMPWX17-NUMCTRLIFCONTRTOCESCED-R
+                                        PIC  X(040)         VALUE
+               'NumCtrlIFContrtoCesCed'.
+           05  FEMPWX17-INDROPFIDC-R    PIC  X(040)         VALUE
+               'IndrOpFIDC'.
+           05  FEMPWX17-NUMCTRLIFCONTRTOCESCES-R
+                                        PIC  X(040)         VALUE
+               'NumCtrlIFContrtoCesCes'.
+           05  FEMPWX17-NUCONTRTOCESSCED-R
+                                        PIC  X(040)         VALUE
+               'NUContrtoCessCed'.
+           05  FEMPWX17-NUCONTRTOCESSCES-R
+                                        PIC  X(040)         VALUE
+               'NUContrtoCessCes'.
+           05  FEMPWX17-GRUPO-ACCC916-CONTRTO-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_Contrto'.
+           05  FEMPWX17-NUCONTRTO-R     PIC  X(040)         VALUE
+               'NUContrto'.
+           05  FEMPWX17-SITRETCONTRTO-R PIC  X(040)         VALUE
+               'SitRetContrto'.
+           05  FEMPWX17-CODCONTRTOOR-R  PIC  X(040)         VALUE
+               'CodContrtoOr'.
+           05  FEMPWX17-CNPJBASE-IFORCONTRTO-R
+                                        PIC  X(040)         VALUE
+               'CNPJBase_IFOrContrto'.
+           05  FEMPWX17-CNPJBASE-PARTGEST-R
+                                        PIC  X(040)         VALUE
+               'CNPJBase_PartGest'.
+           05  FEMPWX17-CNPJ-CPFCLI-R   PIC  X(040)         VALUE
+               'CNPJ_CPFCli'.
+           05  FEMPWX17-TPCLI-R         PIC  X(040)         VALUE
+               'TpCli'.
+           05  FEMPWX17-TPCONTRTO-R     PIC  X(040)         VALUE
+               'TpContrto'.
+           05  FEMPWX17-CNPJBASE-ENTECONS-R
+                                        PIC  X(040)         VALUE
+               'CNPJBase_EnteCons'.
+           05  FEMPWX17-DTCONTRTO-R     PIC  X(040)         VALUE
+               'DtContrto'.
+           05  FEMPWX17-SITCONTRTOGAR-R PIC  X(040)         VALUE
+               'SitContrtoGar'.
+           05  FEMPWX17-ANOMESCOMPTCPRIMRODESCT-R
+                                        PIC  X(040)         VALUE
+               'AnoMesComptcPrimroDesct'.
+           05  FEMPWX17-QTDPARCLSORIGNMTCONTRDA-R
+                                        PIC  X(040)         VALUE
+               'QtdParclsOrignmtContrda'.
+           05  FEMPWX17-GRUPO-ACCC916-CHASSI-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_Chassi'.
+           05  FEMPWX17-MONITRCAGTVALIDDR-R
+                                        PIC  X(040)         VALUE
+               'MonitrcAgtValiddr'.
+           05  FEMPWX17-IDENTDCHASSI-R  PIC  X(040)         VALUE
+               'IdentdChassi'.
+           05  FEMPWX17-SITGARAGTVALIDDR-R
+                                        PIC  X(040)         VALUE
+               'SitGarAgtValiddr'.
+           05  FEMPWX17-CNPJBASE-BENFCRIOCRIV-R
+                                        PIC  X(040)         VALUE
+               'CNPJBase_BenfcrioCriv'.
+           05  FEMPWX17-GRUPO-ACCC916-CONSIG-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_Consig'.
+           05  FEMPWX17-MONITRCAGTVALIDDR-R
+                                        PIC  X(040)         VALUE
+               'MonitrcAgtValiddr'.
+           05  FEMPWX17-NUMCONTRTOENTECONS-R
+                                        PIC  X(040)         VALUE
+               'NumContrtoEnteCons'.
+           05  FEMPWX17-NUMBENFCENTECONS-R
+                                        PIC  X(040)         VALUE
+               'NumBenfcEnteCons'.
+           05  FEMPWX17-NUMMATRICLENTECONS-R
+                                        PIC  X(040)         VALUE
+               'NumMatriclEnteCons'.
+           05  FEMPWX17-SITGARAGTVALIDDR-R
+                                        PIC  X(040)         VALUE
+               'SitGarAgtValiddr'.
+           05  FEMPWX17-GRUPO-ACCC916-PARCL-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_Parcl'.
+           05  FEMPWX17-NUPARCL-R       PIC  X(040)         VALUE
+               'NUParcl'.
+           05  FEMPWX17-PROPTPARCL-R    PIC  X(040)         VALUE
+               'ProptParcl'.
+           05  FEMPWX17-DTPARCL-R       PIC  X(040)         VALUE
+               'DtParcl'.
+           05  FEMPWX17-VLRPARCL-R      PIC  X(040)         VALUE
+               'VlrParcl'.
+           05  FEMPWX17-SITPARCL-R      PIC  X(040)         VALUE
+               'SitParcl'.
+           05  FEMPWX17-CNPJBASE-BENFCRIO-R
+                                        PIC  X(040)         VALUE
+               'CNPJBase_Benfcrio'.
+           05  FEMPWX17-GRUPO ACCC916-PARCL-R
+                                        PIC  X(040)         VALUE
+               'Grupo ACCC916_Parcl'.
+           05  FEMPWX17-GRUPO-ACCC916-NOVCONTRTO-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_NovContrto'.
+           05  FEMPWX17-NUCONTRTO-R     PIC  X(040)         VALUE
+               'NUContrto'.
+           05  FEMPWX17-GRUPO-ACCC916-DADOSBASCCONTRTO-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_DadosBascContrto'.
+           05  FEMPWX17-GRUPO-IDENTD-CONTRTO-R
+                                        PIC  X(040)         VALUE
+               'Grupo_Identd_Contrto'.
+           05  FEMPWX17-CODCONTRTOOR-R  PIC  X(040)         VALUE
+               'CodContrtoOr'.
+           05  FEMPWX17-CNPJBASE-IFORCONTRTO-R
+                                        PIC  X(040)         VALUE
+               'CNPJBase_IFOrContrto'.
+           05  FEMPWX17-TPCLI-R         PIC  X(040)         VALUE
+               'TpCli'.
+           05  FEMPWX17-CNPJ-CPFCLI-R   PIC  X(040)         VALUE
+               'CNPJ_CPFCli'.
+           05  FEMPWX17-TPCONTRTO-R     PIC  X(040)         VALUE
+               'TpContrto'.
+           05  FEMPWX17-DTCONTR-R       PIC  X(040)         VALUE
+               'DtContr'.
+           05  FEMPWX17-VLRFINANCCONTRTO-R
+                                        PIC  X(040)         VALUE
+               'VlrFinancContrto'.
+           05  FEMPWX17-QTDPARCLSORIGMNTCONTRDA-R
+                                        PIC  X(040)         VALUE
+               'QtdParclsOrigmntContrda'.
+           05  FEMPWX17-VLRPRINCIPAL-R  PIC  X(040)         VALUE
+               'VlrPrincipal'.
+           05  FEMPWX17-VLRENTD-R       PIC  X(040)         VALUE
+               'VlrEntd'.
+           05  FEMPWX17-VLRLIQDLIBRD-R  PIC  X(040)         VALUE
+               'VlrLiqdLibrd'.
+           05  FEMPWX17-REGMAMTZC-R     PIC  X(040)         VALUE
+               'RegmAmtzc'.
+           05  FEMPWX17-TPTAX-R         PIC  X(040)         VALUE
+               'TpTax'.
+           05  FEMPWX17-TAXJUROSEFTMENSAL-R
+                                        PIC  X(040)         VALUE
+               'TaxJurosEftMensal'.
+           05  FEMPWX17-TAXJUROSEFTANUAL-R
+                                        PIC  X(040)         VALUE
+               'TaxJurosEftAnual'.
+           05  FEMPWX17-CET-R           PIC  X(040)         VALUE
+               'CET'.
+           05  FEMPWX17-FORMAPGTO-R     PIC  X(040)         VALUE
+               'FormaPgto'.
+           05  FEMPWX17-BCODEB-R        PIC  X(040)         VALUE
+               'BcoDeb'.
+           05  FEMPWX17-AGDEB-R         PIC  X(040)         VALUE
+               'AgDeb'.
+           05  FEMPWX17-CTCLI-R         PIC  X(040)         VALUE
+               'CtCli'.
+           05  FEMPWX17-PERIODVENCPARCL-R
+                                        PIC  X(040)         VALUE
+               'PeriodVencParcl'.
+           05  FEMPWX17-DTVENCPRIMPARCL-R
+                                        PIC  X(040)         VALUE
+               'DtVencPrimParcl'.
+           05  FEMPWX17-DTVENCULTPARCL-R
+                                        PIC  X(040)         VALUE
+               'DtVencUltParcl'.
+           05  FEMPWX17-INDX-R          PIC  X(040)         VALUE
+               'Indx'.
+           05  FEMPWX17-PERCINDX-R      PIC  X(040)         VALUE
+               'PercIndx'.
+           05  FEMPWX17-CODMOEDACNAB-R  PIC  X(040)         VALUE
+               'CodMoedaCNAB'.
+           05  FEMPWX17-NATUOP-R        PIC  X(040)         VALUE
+               'NatuOp'.
+           05  FEMPWX17-INDRCOBRJUROSMORA-R
+                                        PIC  X(040)         VALUE
+               'IndrCobrJurosMora'.
+           05  FEMPWX17-INDRCOBRMULTA-R PIC  X(040)         VALUE
+               'IndrCobrMulta'.
+           05  FEMPWX17-INDRCONTRTOEMPREJZ-R
+                                        PIC  X(040)         VALUE
+               'IndrContrtoEmPrejz'.
+           05  FEMPWX17-VLRSLDPREJZCONTRTO-R
+                                        PIC  X(040)         VALUE
+               'VlrSldPrejzContrto'.
+           05  FEMPWX17-GRUPO-ACCC916-JUROSMORACONTRTO-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_JurosMoraContrto'.
+           05  FEMPWX17-QTDDIASJUROSMORA-R
+                                        PIC  X(040)         VALUE
+               'QtdDiasJurosMora'.
+           05  FEMPWX17-TPCOBRJUROSMORA-R
+                                        PIC  X(040)         VALUE
+               'TpCobrJurosMora'.
+           05  FEMPWX17-VLRJUROSMORA-R  PIC  X(040)         VALUE
+               'VlrJurosMora'.
+           05  FEMPWX17-TPCALCJUROSMORA-R
+                                        PIC  X(040)         VALUE
+               'TpCalcJurosMora'.
+           05  FEMPWX17-FORMACALCJUROSMORA-R
+                                        PIC  X(040)         VALUE
+               'FormaCalcJurosMora'.
+           05  FEMPWX17-TAXJUROSMORA-R  PIC  X(040)         VALUE
+               'TaxJurosMora'.
+           05  FEMPWX17-PERIODTAXJUROSMORA-R
+                                        PIC  X(040)         VALUE
+               'PeriodTaxJurosMora'.
+           05  FEMPWX17-INDXJUROSMORA-R PIC  X(040)         VALUE
+               'IndxJurosMora'.
+           05  FEMPWX17-PERCINDXJUROSMORA-R
+                                        PIC  X(040)         VALUE
+               'PercIndxJurosMora'.
+           05  FEMPWX17-GRUPO-ACCC916-MULTACONTRTO-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_MultaContrto'.
+           05  FEMPWX17-QTDDIASMULTA-R  PIC  X(040)         VALUE
+               'QtdDiasMulta'.
+           05  FEMPWX17-TPCOBRMULTA-R   PIC  X(040)         VALUE
+               'TpCobrMulta'.
+           05  FEMPWX17-VLRMULTA-R      PIC  X(040)         VALUE
+               'VlrMulta'.
+           05  FEMPWX17-BASECALCMULTA-R PIC  X(040)         VALUE
+               'BaseCalcMulta'.
+           05  FEMPWX17-PERCMULTA-R     PIC  X(040)         VALUE
+               'PercMulta'.
+           05  FEMPWX17-INDXMULTA-R     PIC  X(040)         VALUE
+               'IndxMulta'.
+           05  FEMPWX17-GRUPO-ACCC916-IMPENCARGO-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_ImpEncargo'.
+           05  FEMPWX17-TPENCARGO-R     PIC  X(040)         VALUE
+               'TpEncargo'.
+           05  FEMPWX17-VLRENCARGO-R    PIC  X(040)         VALUE
+               'VlrEncargo'.
+           05  FEMPWX17-INDRFINCMNTENCARGO-R
+                                        PIC  X(040)         VALUE
+               'IndrFincmntEncargo'.
+           05  FEMPWX17-GRUPO-ACCC916-DADOSCLIENTECONTRTO-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_DadosClienteContrto'.
+           05  FEMPWX17-GRUPO-ACCC916-CLIPF-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_CliPF'.
+           05  FEMPWX17-NOMCLI-R        PIC  X(040)         VALUE
+               'NomCli'.
+           05  FEMPWX17-DTNASC-R        PIC  X(040)         VALUE
+               'DtNasc'.
+           05  FEMPWX17-SEXO-R          PIC  X(040)         VALUE
+               'Sexo'.
+           05  FEMPWX17-NACNL-R         PIC  X(040)         VALUE
+               'Nacnl'.
+           05  FEMPWX17-TPIDENTC-R      PIC  X(040)         VALUE
+               'TpIdentc'.
+           05  FEMPWX17-NUMIDENTC-R     PIC  X(040)         VALUE
+               'NumIdentc'.
+           05  FEMPWX17-DTIDENTC-R      PIC  X(040)         VALUE
+               'DtIdentc'.
+           05  FEMPWX17-ORGAOEXPDDR-R   PIC  X(040)         VALUE
+               'OrgaoExpddr'.
+           05  FEMPWX17-UFORGAOEXPDDR-R PIC  X(040)         VALUE
+               'UFOrgaoExpddr'.
+           05  FEMPWX17-NOMMAE-R        PIC  X(040)         VALUE
+               'NomMae'.
+           05  FEMPWX17-ESTADOCIVIL-R   PIC  X(040)         VALUE
+               'EstadoCivil'.
+           05  FEMPWX17-NOMCONJUGE-R    PIC  X(040)         VALUE
+               'NomConjuge'.
+           05  FEMPWX17-CPFCONJUGE-R    PIC  X(040)         VALUE
+               'CPFConjuge'.
+           05  FEMPWX17-GRUPO-ACCC916-ENDCLIPF-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_EndCliPF'.
+           05  FEMPWX17-TPEND-R         PIC  X(040)         VALUE
+               'TpEnd'.
+           05  FEMPWX17-END-R           PIC  X(040)         VALUE
+               'End'.
+           05  FEMPWX17-CEP-R           PIC  X(040)         VALUE
+               'CEP'.
+           05  FEMPWX17-CID-R           PIC  X(040)         VALUE
+               'Cid'.
+           05  FEMPWX17-UF-R            PIC  X(040)         VALUE
+               'UF'.
+           05  FEMPWX17-PAIS-R          PIC  X(040)         VALUE
+               'Pais'.
+           05  FEMPWX17-TELRES-R        PIC  X(040)         VALUE
+               'TelRes'.
+           05  FEMPWX17-TELCOML-R       PIC  X(040)         VALUE
+               'TelComl'.
+           05  FEMPWX17-TELCEL-R        PIC  X(040)         VALUE
+               'TelCel'.
+           05  FEMPWX17-ENDELETRNC-R    PIC  X(040)         VALUE
+               'EndEletrnc'.
+           05  FEMPWX17-PORTECLI-PF-R   PIC  X(040)         VALUE
+               'PorteCli_PF'.
+           05  FEMPWX17-GRUPO-ACCC916-CLIPJ-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_CliPJ'.
+           05  FEMPWX17-NOMEMP-R        PIC  X(040)         VALUE
+               'NomEmp'.
+           05  FEMPWX17-DTABERT-R       PIC  X(040)         VALUE
+               'DtAbert'.
+           05  FEMPWX17-GRUPO-ACCC916-ENDCLIPJ-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_EndCliPJ'.
+           05  FEMPWX17-TPEND-R         PIC  X(040)         VALUE
+               'TpEnd'.
+           05  FEMPWX17-END-R           PIC  X(040)         VALUE
+               'End'.
+           05  FEMPWX17-CEP-R           PIC  X(040)         VALUE
+               'CEP'.
+           05  FEMPWX17-CID-R           PIC  X(040)         VALUE
+               'Cid'.
+           05  FEMPWX17-UF-R            PIC  X(040)         VALUE
+               'UF'.
+           05  FEMPWX17-PAIS-R          PIC  X(040)         VALUE
+               'Pais'.
+           05  FEMPWX17-TELCOML-R       PIC  X(040)         VALUE
+               'TelComl'.
+           05  FEMPWX17-NOMCONTATO-R    PIC  X(040)         VALUE
+               'NomContato'.
+           05  FEMPWX17-PORTECLI-PJ-R   PIC  X(040)         VALUE
+               'PorteCli_PJ'.
+           05  FEMPWX17-TPCTRL-R        PIC  X(040)         VALUE
+               'TpCtrl'.
+           05  FEMPWX17-FATRMNT-R       PIC  X(040)         VALUE
+               'Fatrmnt'.
+           05  FEMPWX17-GRUPO-ACCC916-REPRLEGAL-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_ReprLegal'.
+           05  FEMPWX17-CNPJ-CPF-REPRLEGAL-R
+                                        PIC  X(040)         VALUE
+               'CNPJ_CPF_ReprLegal'.
+           05  FEMPWX17-GRUPO-ACCC916-PARCLNOVCONTRTO-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_ParclNovContrto'.
+           05  FEMPWX17-NUPARCL-R       PIC  X(040)         VALUE
+               'NUParcl'.
+           05  FEMPWX17-DTVENCPARCL-R   PIC  X(040)         VALUE
+               'DtVencParcl'.
+           05  FEMPWX17-TPPARCL-R       PIC  X(040)         VALUE
+               'TpParcl'.
+           05  FEMPWX17-VLRPARCL-R      PIC  X(040)         VALUE
+               'VlrParcl'.
+           05  FEMPWX17-VLRPRINCIPALPARCL-R
+                                        PIC  X(040)         VALUE
+               'VlrPrincipalParcl'.
+           05  FEMPWX17-VLRJUROSPARCL-R PIC  X(040)         VALUE
+               'VlrJurosParcl'.
+           05  FEMPWX17-VLRSLDDEVDRPARCL-R
+                                        PIC  X(040)         VALUE
+               'VlrSldDevdrParcl'.
+           05  FEMPWX17-VLRPRINCIPALPARCLOR-R
+                                        PIC  X(040)         VALUE
+               'VlrPrincipalParclOr'.
+           05  FEMPWX17-VLRJUROSPARCLOR-R
+                                        PIC  X(040)         VALUE
+               'VlrJurosParclOr'.
+           05  FEMPWX17-VLRSLDDEVDRPARCLOR-R
+                                        PIC  X(040)         VALUE
+               'VlrSldDevdrParclOr'.
+           05  FEMPWX17-VLRSLDPREJZPARCL-R
+                                        PIC  X(040)         VALUE
+               'VlrSldPrejzParcl'.
+           05  FEMPWX17-VLRSLDPREJZPARCLOR-R
+                                        PIC  X(040)         VALUE
+               'VlrSldPrejzParclOr'.
+           05  FEMPWX17-CMC7CHEQ-R      PIC  X(040)         VALUE
+               'CMC7Cheq'.
+           05  FEMPWX17-LINHADIGTVL-R   PIC  X(040)         VALUE
+               'LinhaDigtvl'.
+           05  FEMPWX17-NUIDCIPBOLETO-R PIC  X(040)         VALUE
+               'NuIdCIPBoleto'.
+           05  FEMPWX17-SITPARCL-R      PIC  X(040)         VALUE
+               'SitParcl'.
+           05  FEMPWX17-INDRPARCLCEDD-R PIC  X(040)         VALUE
+               'IndrParclCedd'.
+           05  FEMPWX17-CNPJBASE-CES-R  PIC  X(040)         VALUE
+               'CNPJBase_Ces'.
+           05  FEMPWX17-SITREP-R        PIC  X(040)         VALUE
+               'SitRep'.
+           05  FEMPWX17-GRUPO-ACCC916-PAGTOPARCL-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_PagtoParcl'.
+           05  FEMPWX17-DTPAGTOPARCL-R  PIC  X(040)         VALUE
+               'DtPagtoParcl'.
+           05  FEMPWX17-VLRPAGO-R       PIC  X(040)         VALUE
+               'VlrPago'.
+           05  FEMPWX17-VLRPRINCIPALPAGTOPARCL-R
+                                        PIC  X(040)         VALUE
+               'VlrPrincipalPagtoParcl'.
+           05  FEMPWX17-VLRJUROSPAGTOPARCL-R
+                                        PIC  X(040)         VALUE
+               'VlrJurosPagtoParcl'.
+           05  FEMPWX17-VLRJUROSMORAPAGTOPARCL-R
+                                        PIC  X(040)         VALUE
+               'VlrJurosMoraPagtoParcl'.
+           05  FEMPWX17-VLRMULTAPAGTOPARCL-R
+                                        PIC  X(040)         VALUE
+               'VlrMultaPagtoParcl'.
+           05  FEMPWX17-VLRIOFATRPAGTOPARCL-R
+                                        PIC  X(040)         VALUE
+               'VlrIOFAtrPagtoParcl'.
+           05  FEMPWX17-VLRDESCTPAGTOPARCL-R
+                                        PIC  X(040)         VALUE
+               'VlrDesctPagtoParcl'.
+           05  FEMPWX17-VLRABATTPAGTOPARCL-R
+                                        PIC  X(040)         VALUE
+               'VlrAbattPagtoParcl'.
+           05  FEMPWX17-VLRDESPPAGTOPARCL-R
+                                        PIC  X(040)         VALUE
+               'VlrDespPagtoParcl'.
+           05  FEMPWX17-INDRLIQUIDEXTRAJUD-R
+                                        PIC  X(040)         VALUE
+               'IndrLiquidExtraJud'.
+           05  FEMPWX17-INDRLEI-R       PIC  X(040)         VALUE
+               'IndrLei'.
+           05  FEMPWX17-VLRLEI-R        PIC  X(040)         VALUE
+               'VlrLei'.
+           05  FEMPWX17-INDRSEGRPAGO-R  PIC  X(040)         VALUE
+               'IndrSegrPago'.
+           05  FEMPWX17-GRUPO-ACCC916-GARSCR-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_GarSCR'.
+           05  FEMPWX17-NUMCTRLIFGAR-R  PIC  X(040)         VALUE
+               'NumCtrlIFGar'.
+           05  FEMPWX17-TPGAR-R         PIC  X(040)         VALUE
+               'TpGar'.
+           05  FEMPWX17-TPGARSCR-R      PIC  X(040)         VALUE
+               'TpGarSCR'.
+           05  FEMPWX17-SUBTPGARSCR-R   PIC  X(040)         VALUE
+               'SubTpGarSCR'.
+           05  FEMPWX17-SITGAR-R        PIC  X(040)         VALUE
+               'SitGar'.
+           05  FEMPWX17-INDRBEMFINCD-R  PIC  X(040)         VALUE
+               'IndrBemFincd'.
+           05  FEMPWX17-PERCGAR-R       PIC  X(040)         VALUE
+               'PercGar'.
+           05  FEMPWX17-VLRORGAR-R      PIC  X(040)         VALUE
+               'VlrOrGar'.
+           05  FEMPWX17-VLRGARDTREAVAL-R
+                                        PIC  X(040)         VALUE
+               'VlrGarDtReaval'.
+           05  FEMPWX17-DTREAVAL-R      PIC  X(040)         VALUE
+               'DtReaval'.
+           05  FEMPWX17-CLASSRSCCESTA-R PIC  X(040)         VALUE
+               'ClassRscCesta'.
+           05  FEMPWX17-GRUPO-ACCC916-VEIC-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_Veic'.
+           05  FEMPWX17-VLRENTDVEIC-R   PIC  X(040)         VALUE
+               'VlrEntdVeic'.
+           05  FEMPWX17-IDENTDCHASSI-R  PIC  X(040)         VALUE
+               'IdentdChassi'.
+           05  FEMPWX17-TPVEIC-R        PIC  X(040)         VALUE
+               'TpVeic'.
+           05  FEMPWX17-TPTABVEICL-R    PIC  X(040)         VALUE
+               'TpTabVeicl'.
+           05  FEMPWX17-CODTABVEICL-R   PIC  X(040)         VALUE
+               'CodTabVeicl'.
+           05  FEMPWX17-UFCODTABVEICL-R PIC  X(040)         VALUE
+               'UFCodTabVeicl'.
+           05  FEMPWX17-GRUPO-ACCC916-IDENTCVEIC-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_IdentcVeic'.
+           05  FEMPWX17-VLRMERCVEIC-R   PIC  X(040)         VALUE
+               'VlrMercVeic'.
+           05  FEMPWX17-CODCATG-R       PIC  X(040)         VALUE
+               'CodCatg'.
+           05  FEMPWX17-CODMARCA-R      PIC  X(040)         VALUE
+               'CodMarca'.
+           05  FEMPWX17-CODMODL-R       PIC  X(040)         VALUE
+               'CodModl'.
+           05  FEMPWX17-ANOMODLVEICL-R  PIC  X(040)         VALUE
+               'AnoModlVeicl'.
+           05  FEMPWX17-ANOFABRCCVEICL-R
+                                        PIC  X(040)         VALUE
+               'AnoFabrccVeicl'.
+           05  FEMPWX17-TPCOMBTVL-R     PIC  X(040)         VALUE
+               'TpCombtvl'.
+           05  FEMPWX17-PAISFABRCC-R    PIC  X(040)         VALUE
+               'PaisFabrcc'.
+           05  FEMPWX17-INDRVEICUSADO-R PIC  X(040)         VALUE
+               'IndrVeicUsado'.
+           05  FEMPWX17-NUMPLACA-R      PIC  X(040)         VALUE
+               'NumPlaca'.
+           05  FEMPWX17-UFNUMPLACA-R    PIC  X(040)         VALUE
+               'UFNumPlaca'.
+           05  FEMPWX17-KM-R            PIC  X(040)         VALUE
+               'KM'.
+           05  FEMPWX17-RENAVAM-R       PIC  X(040)         VALUE
+               'RENAVAM'.
+           05  FEMPWX17-NUMNOTA-R       PIC  X(040)         VALUE
+               'NumNota'.
+           05  FEMPWX17-NUMSERNOTA-R    PIC  X(040)         VALUE
+               'NumSerNota'.
+           05  FEMPWX17-VLRNOTA-R       PIC  X(040)         VALUE
+               'VlrNota'.
+           05  FEMPWX17-DTEMISS-R       PIC  X(040)         VALUE
+               'DtEmiss'.
+           05  FEMPWX17-GRUPO-ACCC916-IMOVEL-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_Imovel'.
+           05  FEMPWX17-TPIMOVL-R       PIC  X(040)         VALUE
+               'TpImovl'.
+           05  FEMPWX17-TPUSOIMOVL-R    PIC  X(040)         VALUE
+               'TpUsoImovl'.
+           05  FEMPWX17-NUMINSCRMUNCPLIMOVL-R
+                                        PIC  X(040)         VALUE
+               'NumInscrMuncplImovl'.
+           05  FEMPWX17-NUMMATRICLIMOVL-R
+                                        PIC  X(040)         VALUE
+               'NumMatriclImovl'.
+           05  FEMPWX17-IDCARTRIO-R     PIC  X(040)         VALUE
+               'IdCartrio'.
+           05  FEMPWX17-GRUPO-ACCC916-ENDIMOVEL-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_EndImovel'.
+           05  FEMPWX17-TPENDIMOVL-R    PIC  X(040)         VALUE
+               'TpEndImovl'.
+           05  FEMPWX17-ENDIMOVL-R      PIC  X(040)         VALUE
+               'EndImovl'.
+           05  FEMPWX17-CEPIMOVL-R      PIC  X(040)         VALUE
+               'CEPImovl'.
+           05  FEMPWX17-CIDIMOVL-R      PIC  X(040)         VALUE
+               'CidImovl'.
+           05  FEMPWX17-UFIMOVL-R       PIC  X(040)         VALUE
+               'UFImovl'.
+           05  FEMPWX17-PAISIMOVL-R     PIC  X(040)         VALUE
+               'PaisImovl'.
+           05  FEMPWX17-GRUPO-ACCC916-GARFIDEJUSSORIA-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_GarFidejussoria'.
+           05  FEMPWX17-SEQGARFIDJSSRIA-R
+                                        PIC  X(040)         VALUE
+               'SeqGarFidjssria'.
+           05  FEMPWX17-TPPESSOAGARFIDJSSRIA-R
+                                        PIC  X(040)         VALUE
+               'TpPessoaGarFidjssria'.
+           05  FEMPWX17-CNPJ-CPFPESSOAGARFIDJSSRIA-R
+                                        PIC  X(040)         VALUE
+               'CNPJ_CPFPessoaGarFidjssria'.
+           05  FEMPWX17-GRUPO-ACCC916-GARFIDJSSRIAPF-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_GarFidjssriaPF'.
+           05  FEMPWX17-NOMPESSOAGARFIDJSSRIA-R
+                                        PIC  X(040)         VALUE
+               'NomPessoaGarFidjssria'.
+           05  FEMPWX17-NOMMAE-R        PIC  X(040)         VALUE
+               'NomMae'.
+           05  FEMPWX17-ESTADOCIVIL-R   PIC  X(040)         VALUE
+               'EstadoCivil'.
+           05  FEMPWX17-CPFCONJUGE-R    PIC  X(040)         VALUE
+               'CPFConjuge'.
+           05  FEMPWX17-NOMCONJUGE-R    PIC  X(040)         VALUE
+               'NomConjuge'.
+           05  FEMPWX17-PORTEPESSOAGARFIDJSSRIAPF-R
+                                        PIC  X(040)         VALUE
+               'PortePessoaGarFidjssriaPF'.
+           05  FEMPWX17-TPIDENTC-R      PIC  X(040)         VALUE
+               'TpIdentc'.
+           05  FEMPWX17-NUMIDENTC-R     PIC  X(040)         VALUE
+               'NumIdentc'.
+           05  FEMPWX17-GRUPO-ACCC916-GARFIDJSSRIAPJ-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_GarFidjssriaPJ'.
+           05  FEMPWX17-NOMEMPGARFIDJSSRIA-R
+                                        PIC  X(040)         VALUE
+               'NomEmpGarFidjssria'.
+           05  FEMPWX17-DTABERT-R       PIC  X(040)         VALUE
+               'DtAbert'.
+           05  FEMPWX17-TELCOML-R       PIC  X(040)         VALUE
+               'TelComl'.
+           05  FEMPWX17-NOMCONTATO-R    PIC  X(040)         VALUE
+               'NomContato'.
+           05  FEMPWX17-TPCTRL-R        PIC  X(040)         VALUE
+               'TpCtrl'.
+           05  FEMPWX17-FATRMNT-R       PIC  X(040)         VALUE
+               'Fatrmnt'.
+           05  FEMPWX17-PORTEPESSOAGARFIDJSSRIAPJ-R
+                                        PIC  X(040)         VALUE
+               'PortePessoaGarFidjssriaPJ'.
+           05  FEMPWX17-CNPJ-CPF-REPRLEGAL-R
+                                        PIC  X(040)         VALUE
+               'CNPJ_CPF_ReprLegal'.
+           05  FEMPWX17-GRUPO-ACCC916-ENDGARFIDJSSRIA-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_EndGarFidjssria'.
+           05  FEMPWX17-TPENDGARFIDJSSRIA-R
+                                        PIC  X(040)         VALUE
+               'TpEndGarFidjssria'.
+           05  FEMPWX17-ENDGARFIDJSSRIA-R
+                                        PIC  X(040)         VALUE
+               'EndGarFidjssria'.
+           05  FEMPWX17-CEPENDGARFIDJSSRIA-R
+                                        PIC  X(040)         VALUE
+               'CEPEndGarFidjssria'.
+           05  FEMPWX17-CIDENDGARFIDJSSRIA-R
+                                        PIC  X(040)         VALUE
+               'CidEndGarFidjssria'.
+           05  FEMPWX17-UFENDGARFIDJSSRIA-R
+                                        PIC  X(040)         VALUE
+               'UFEndGarFidjssria'.
+           05  FEMPWX17-PAISENDGARFIDJSSRIA-R
+                                        PIC  X(040)         VALUE
+               'PaisEndGarFidjssria'.
+           05  FEMPWX17-GRUPO-ACCC916-EQUIPMNT-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_Equipmnt'.
+           05  FEMPWX17-TPEQUIPMNT-R    PIC  X(040)         VALUE
+               'TpEquipmnt'.
+           05  FEMPWX17-VLRENTDEQUIPMNT-R
+                                        PIC  X(040)         VALUE
+               'VlrEntdEquipmnt'.
+           05  FEMPWX17-CNPJFABRCTE-R   PIC  X(040)         VALUE
+               'CNPJFabrcte'.
+           05  FEMPWX17-CNPJFORNDR-R    PIC  X(040)         VALUE
+               'CNPJForndr'.
+           05  FEMPWX17-NUMNOTA-R       PIC  X(040)         VALUE
+               'NumNota'.
+           05  FEMPWX17-NUMSERNOTA-R    PIC  X(040)         VALUE
+               'NumSerNota'.
+           05  FEMPWX17-VLRNOTA-R       PIC  X(040)         VALUE
+               'VlrNota'.
+           05  FEMPWX17-DTEMISS-R       PIC  X(040)         VALUE
+               'DtEmiss'.
+           05  FEMPWX17-PAISFABRCC-R    PIC  X(040)         VALUE
+               'PaisFabrcc'.
+           05  FEMPWX17-NUMSEREQUIPMNT-R
+                                        PIC  X(040)         VALUE
+               'NumSerEquipmnt'.
+           05  FEMPWX17-GRUPO-ACCC916-INSTNTOFINANC-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_InstntoFinanc'.
+           05  FEMPWX17-TPINSTNTOFINANC-R
+                                        PIC  X(040)         VALUE
+               'TpInstntoFinanc'.
+           05  FEMPWX17-CODINSTNTOFINANC-R
+                                        PIC  X(040)         VALUE
+               'CodInstntoFinanc'.
+           05  FEMPWX17-DTEMISSINSTNTOFINANC-R
+                                        PIC  X(040)         VALUE
+               'DtEmissInstntoFinanc'.
+           05  FEMPWX17-DTINIALINSTNTOFINANC-R
+                                        PIC  X(040)         VALUE
+               'DtinialInstntoFinanc'.
+           05  FEMPWX17-DTVENCINSTNTOFINANC-R
+                                        PIC  X(040)         VALUE
+               'DtVencInstntoFinanc'.
+           05  FEMPWX17-QTDEMITD-R      PIC  X(040)         VALUE
+               'QtdEmitd'.
+           05  FEMPWX17-VLRUNIT-R       PIC  X(040)         VALUE
+               'VlrUnit'.
+           05  FEMPWX17-NUMMATRICLINSTNTOFINANC-R
+                                        PIC  X(040)         VALUE
+               'NumMatriclInstntoFinanc'.
+           05  FEMPWX17-IDCARTRIOINSTNTOFINANC-R
+                                        PIC  X(040)         VALUE
+               'IdCartrioInstntoFinanc'.
+           05  FEMPWX17-GRUPO-ACCC916-PESSOA-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_Pessoa'.
+           05  FEMPWX17-TPPESSOAINSTNTOFINANC-R
+                                        PIC  X(040)         VALUE
+               'TpPessoaInstntoFinanc'.
+           05  FEMPWX17-CNPJ-CPFPESSOAINSTNTOFINANC-R
+                                        PIC  X(040)         VALUE
+               'CNPJ_CPFPessoaInstntoFinanc'.
+           05  FEMPWX17-NOMPESSOAINSTNTOFINANC-R
+                                        PIC  X(040)         VALUE
+               'NomPessoaInstntoFinanc'.
+           05  FEMPWX17-TPPESSOAVINCDINSTNTOFINANC-R
+                                        PIC  X(040)         VALUE
+               'TpPessoaVincdInstntoFinanc'.
+           05  FEMPWX17-GRUPO-ACCC916-ENDPESSOA-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_EndPessoa'.
+           05  FEMPWX17-TPEND-R         PIC  X(040)         VALUE
+               'TpEnd'.
+           05  FEMPWX17-END-R           PIC  X(040)         VALUE
+               'End'.
+           05  FEMPWX17-CEP-R           PIC  X(040)         VALUE
+               'CEP'.
+           05  FEMPWX17-CID-R           PIC  X(040)         VALUE
+               'Cid'.
+           05  FEMPWX17-UF-R            PIC  X(040)         VALUE
+               'UF'.
+           05  FEMPWX17-PAIS-R          PIC  X(040)         VALUE
+               'Pais'.
+           05  FEMPWX17-GRUPO-ACCC916-MERCDRIA-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_Mercdria'.
+           05  FEMPWX17-TPPRODT-R       PIC  X(040)         VALUE
+               'TpProdt'.
+           05  FEMPWX17-CODPRODT-R      PIC  X(040)         VALUE
+               'CodProdt'.
+           05  FEMPWX17-DESCPRODT-R     PIC  X(040)         VALUE
+               'DescProdt'.
+           05  FEMPWX17-PESOLIQDPRODT-R PIC  X(040)         VALUE
+               'PesoLiqdProdt'.
+           05  FEMPWX17-ANOSAF-R        PIC  X(040)         VALUE
+               'AnoSaf'.
+           05  FEMPWX17-QTDPRODT-R      PIC  X(040)         VALUE
+               'QtdProdt'.
+           05  FEMPWX17-UNIDDPRODT-R    PIC  X(040)         VALUE
+               'UniddProdt'.
+           05  FEMPWX17-GRUPO-ACCC916-END-R
+                                        PIC  X(040)         VALUE
+               'Grupo_ACCC916_End'.
+           05  FEMPWX17-IDENTCEND-R     PIC  X(040)         VALUE
+               'IdentcEnd'.
+           05  FEMPWX17-TPEND-R         PIC  X(040)         VALUE
+               'TpEnd'.
+           05  FEMPWX17-END-R           PIC  X(040)         VALUE
+               'End'.
+           05  FEMPWX17-CEP-R           PIC  X(040)         VALUE
+               'CEP'.
+           05  FEMPWX17-CID-R           PIC  X(040)         VALUE
+               'Cid'.
+           05  FEMPWX17-UF-R            PIC  X(040)         VALUE
+               'UF'.
+           05  FEMPWX17-PAIS-R          PIC  X(040)         VALUE
+               'Pais'.
